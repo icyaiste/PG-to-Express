@@ -2,9 +2,9 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_USER: athlete
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: sports_data
+      POSTGRES_USER: student
+      POSTGRES_PASSWORD: student
+      POSTGRES_DB: game_studio
     ports:
       - "5432:5432"
 
